@@ -2,6 +2,7 @@ fileFormatVersion: 2
 guid: 952cfe36b5e86f741a2bf7e4042deba2
 labels:
 - Material
+- Sky
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
