@@ -1,8 +1,10 @@
 fileFormatVersion: 2
 guid: 952cfe36b5e86f741a2bf7e4042deba2
+labels:
+- Material
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: gamestuff
+  assetBundleVariant: materials

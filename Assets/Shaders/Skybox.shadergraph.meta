@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: bbb5e8e9efd7c2d4a87f3e7437ca1b4f
+labels:
+- Material
+- Sky
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 2
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: gamestuff
+  assetBundleVariant: shaders
   script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
