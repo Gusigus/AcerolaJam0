@@ -108,7 +108,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Ambient: 0.41
+    - _Ambient: 0.243
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -135,8 +135,8 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Rim_Brightness: 0
-    - _Rim_Hardness: 1
-    - _Rim_Power: 10
+    - _Rim_Hardness: 0
+    - _Rim_Power: 0
     - _Scale_Texture_1: 0.19
     - _Scale_Texture_2: 0.11
     - _Smoothness: 0.5
@@ -146,9 +146,9 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Threshhold: 0.47
-    - _Toon_Ramp_Offset: 0.17
+    - _Toon_Ramp_Offset: 0.37
     - _Toon_Ramp_Offset_Point: 0
-    - _Toon_Ramp_Smoothness: 1
+    - _Toon_Ramp_Smoothness: 0.41
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
