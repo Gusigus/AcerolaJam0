@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: ca996f83cb4be90449033dc47f137596, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Wind_Noise:
+        m_Texture: {fileID: 2800000, guid: f1fc48e35b134a14daf530e6f8e3ce72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -96,7 +100,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Alpha_Theshold: 0.11
-    - _Ambient: 0.462
+    - _Ambient: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -112,7 +116,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height_Blend: 1.19
+    - _Height_Blend: 0.36
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -128,25 +132,31 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _Terrain_Color_Intersity: 1.5
+    - _Terrain_Color_Intersity: 1
     - _Terrain_Offset: 0.5
     - _Terrain_Size: 50
-    - _Toon_Ramp_Offset: 0.095
+    - _Toon_Ramp_Offset: 0
     - _Toon_Ramp_Offset_Point: 0
-    - _Toon_Ramp_Smoothness: 0.451
+    - _Toon_Ramp_Smoothness: 0.375
+    - _Wind_Height: 0.19
+    - _Wind_Intensity: 0.04
+    - _Wind_Noise_Speed: 0.5
+    - _Wind_Speed: 0.05
     - _WorkflowMode: 0
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.65418494, g: 0.8679245, b: 0.36354572, a: 1}
-    - _Bottom_Color: {r: 0.30795655, g: 0.6886792, b: 0.38810864, a: 0}
-    - _Color: {r: 0.83546597, g: 1, b: 0.67358494, a: 1}
+    - _Bottom_Color: {r: 0.5721752, g: 0.4454254, b: 0.8679245, a: 0}
+    - _Color: {r: 0.55906016, g: 0.9811321, b: 0.6684062, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Far_Color: {r: 0.7072268, g: 0.8113208, b: 0.7619292, a: 0}
     - _Near_Color: {r: 0.9766931, g: 1, b: 0.9283019, a: 0}
     - _Near_Far_Range: {r: 10, g: 32.2, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Toon_Ramp_Tint: {r: 0.9697942, g: 0.7736917, b: 0.9716981, a: 0}
-    - _Top_Color: {r: 0.9981575, g: 1, b: 0.8528302, a: 0}
+    - _Toon_Ramp_Tint: {r: 0.53658646, g: 0.28577784, b: 0.6132076, a: 0}
+    - _Top_Color: {r: 0.9380663, g: 1, b: 0.33333337, a: 0}
+    - _Wind_Noise_Contrast: {r: 0.1, g: 1.68, b: 0, a: 0}
+    - _Wind_Noise_Scale: {r: 251.6, g: 419.92, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7932082858641880524
 MonoBehaviour:
