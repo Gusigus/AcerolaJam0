@@ -194,7 +194,6 @@ GameObject:
   - component: {fileID: 416377897}
   - component: {fileID: 416377896}
   - component: {fileID: 416377895}
-  - component: {fileID: 416377898}
   m_Layer: 3
   m_Name: Terrain
   m_TagString: Terrain
@@ -236,8 +235,8 @@ Terrain:
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 48
-  m_DetailObjectDensity: 0.155
+  m_DetailObjectDistance: 128
+  m_DetailObjectDensity: 0.25
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
@@ -276,18 +275,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1106219425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &416377898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416377894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8de44b43c2d37d40bfebacf5730a865, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

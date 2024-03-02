@@ -116,7 +116,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height_Blend: 0.36
+    - _Height_Blend: 0.57
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -132,12 +132,12 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _Terrain_Color_Intersity: 1
+    - _Terrain_Color_Intersity: 0.94
     - _Terrain_Offset: 0.5
     - _Terrain_Size: 50
     - _Toon_Ramp_Offset: 0
     - _Toon_Ramp_Offset_Point: 0
-    - _Toon_Ramp_Smoothness: 0.375
+    - _Toon_Ramp_Smoothness: 0.39
     - _Wind_Height: 0.19
     - _Wind_Intensity: 0.04
     - _Wind_Noise_Speed: 0.5
@@ -146,11 +146,11 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.65418494, g: 0.8679245, b: 0.36354572, a: 1}
-    - _Bottom_Color: {r: 0.5721752, g: 0.4454254, b: 0.8679245, a: 0}
-    - _Color: {r: 0.55906016, g: 0.9811321, b: 0.6684062, a: 1}
+    - _Bottom_Color: {r: 0.7587428, g: 0.6799573, b: 0.9433962, a: 0}
+    - _Color: {r: 0.56078434, g: 0.98039216, b: 0.8520591, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Far_Color: {r: 0.7072268, g: 0.8113208, b: 0.7619292, a: 0}
-    - _Near_Color: {r: 0.9766931, g: 1, b: 0.9283019, a: 0}
+    - _Near_Color: {r: 0.8346783, g: 0.8962264, b: 0.6121395, a: 0}
     - _Near_Far_Range: {r: 10, g: 32.2, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Toon_Ramp_Tint: {r: 0.53658646, g: 0.28577784, b: 0.6132076, a: 0}

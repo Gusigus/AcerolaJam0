@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Blend_Texture:
-        m_Texture: {fileID: 2800000, guid: 04972f45871bf5347bec8d765676be4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 68cac53d97aad344b8ce7481ee0da897, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -140,8 +140,8 @@ Material:
     - _GlossyReflections: 0
     - _Grass_Height_Blend: 0.928
     - _Grass_Threshold: 0.565
-    - _Grunge_Threshold: 1
-    - _Grunge_Tile: 0.01
+    - _Grunge_Threshold: 0.31
+    - _Grunge_Tile: 0.02
     - _Mask_Fuzzines: 1
     - _Mask_Range: 0.163
     - _Metallic: 0
