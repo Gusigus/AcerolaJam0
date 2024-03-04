@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Atlas_Shader_Toon
     second: {fileID: 2100000, guid: 53ccda7a6cc74d24e85da5cec4b476ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cape_Material_00
+    second: {fileID: 2100000, guid: 725eb20118afabf41a481be2b7d8133b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
